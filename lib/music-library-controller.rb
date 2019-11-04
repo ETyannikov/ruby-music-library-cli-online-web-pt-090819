@@ -102,6 +102,7 @@ class MusicLibraryController
           puts "Playing #{song.name} by #{song.artist.name}"
         end #if
         counter += 1
+        binding.pry
       end #each
   end #play_song
 end #class
